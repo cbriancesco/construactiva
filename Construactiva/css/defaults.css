@@ -1,0 +1,13 @@
+/* MAIN VARIABLES */
+/* line 4, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+header {
+  width: 800px;
+  background: #68b4ff;
+  margin: 0 auto;
+  height: 300px; }
+
+/* line 11, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+h1:before {
+  font-size: 60px; }
+
+/*# sourceMappingURL=defaults.css.map */

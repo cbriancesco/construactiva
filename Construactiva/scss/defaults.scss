@@ -1,0 +1,14 @@
+/* MAIN VARIABLES */
+$desk-width: 800px;
+
+header{
+    width: $desk-width;
+    background: #68b4ff;
+    margin: 0 auto;
+    height: 300px;
+}
+
+h1:before{
+    font-size: 60px;
+}
+

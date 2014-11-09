@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "defaults.css",
+  "sources": [
+    "defaults.scss"
+  ],
+  "names": [],
+  "mappings": ";;AAGA;EACI,OAHS;EAIT,YAAY;EACZ,QAAQ;EACR,QAAQ;;;AAGZ,EAAE;EACE,WAAW",
+  "sourceRoot": "../scss/"
+}
