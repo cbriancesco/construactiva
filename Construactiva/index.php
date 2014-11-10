@@ -196,6 +196,7 @@
             autoPlay: {
                 enabled: true,
                 pauseOnHover: true,
+                stopAtAction: false,
                 delay: 5000
             },
 			loop: true,
