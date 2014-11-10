@@ -1,14 +1,88 @@
-/* MAIN VARIABLES */
-$desk-width: 800px;
+@import 'variables.scss';
+
+/* DEFALULTS */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+/* MEAN CLASSES */
+.block{
+    display: block;
+}
 
 header{
     width: $desk-width;
-    background: #68b4ff;
     margin: 0 auto;
-    height: 300px;
+    padding-top: 10px;
+    overflow: hidden;
+    background: #fff;
+
+    h1{
+        margin: 0;
+        padding: 27px 0 30px 85px;
+        font-family: $font;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 20px;
+        text-transform: uppercase;
+        position: relative;
+        color: $purple;
+        float: left;
+        
+        span{
+            color: $cian;
+        }
+        
+        span.block{
+            padding-left: 2px;
+            font-size: 12px;
+            line-height: 16px;
+            font-weight: 300 !important;
+            color: $gray;
+        }
+
+        .icon-construactiva{
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 85px;
+            float: left;
+            color: $purple;
+        }
+    }
+    
+    .mainNav{
+        float: right;
+        padding-top: 34px;
+        
+        ul{
+            overflow: hidden;
+            
+            li{
+                float: left;
+                font-family: $font;
+                padding: 0 10px;
+                
+                a{
+                    display: block;
+                    text-transform: uppercase;
+                    font-size: 16px;
+                    padding: 0 10px;
+                    color: $purple;
+                    line-height: 20px;
+                }
+                
+                a:hover,
+                a.selected{
+                    color: $cian;
+                }
+            }
+        }
+    }    
 }
 
-h1:before{
-    font-size: 60px;
-}
 
+@import 'home.scss';

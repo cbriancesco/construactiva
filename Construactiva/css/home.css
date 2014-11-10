@@ -8,89 +8,6 @@
   -ms-border-radius: 50%;
   border-radius: 50%; }
 
-/* DEFALULTS */
-/* line 5, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Hind', sans-serif; }
-
-/* MEAN CLASSES */
-/* line 12, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-.block {
-  display: block; }
-
-/* line 16, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-header {
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 10px;
-  overflow: hidden;
-  background: #fff; }
-  /* line 23, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-  header h1 {
-    margin: 0;
-    padding: 27px 0 30px 85px;
-    font-family: 'Hind', sans-serif;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
-    text-transform: uppercase;
-    position: relative;
-    color: #413062;
-    float: left; }
-    /* line 35, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-    header h1 span {
-      color: #00a8d8; }
-    /* line 39, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-    header h1 span.block {
-      padding-left: 2px;
-      font-size: 12px;
-      line-height: 16px;
-      font-weight: 300 !important;
-      color: #8e8e8e; }
-    /* line 47, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-    header h1 .icon-construactiva {
-      position: absolute;
-      top: 0;
-      left: 0;
-      font-size: 85px;
-      float: left;
-      color: #413062; }
-  /* line 57, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-  header .mainNav {
-    float: right;
-    padding-top: 34px; }
-    /* line 61, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-    header .mainNav ul {
-      overflow: hidden; }
-      /* line 64, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-      header .mainNav ul li {
-        float: left;
-        font-family: 'Hind', sans-serif;
-        padding: 0 10px; }
-        /* line 69, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-        header .mainNav ul li a {
-          display: block;
-          text-transform: uppercase;
-          font-size: 16px;
-          padding: 0 10px;
-          color: #413062;
-          line-height: 20px; }
-        /* line 79, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
-        header .mainNav ul li a:hover, header .mainNav ul li a.selected {
-          color: #00a8d8; }
-
-/* GENERALS */
-/* FONTS */
-/* COLORS */
-/* line 25, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/variables.scss */
-.circle {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%; }
-
 /* line 7, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
 .slider-holder {
   background: #413062;
@@ -259,4 +176,4 @@ header {
       background: #737373;
       padding: 18px 0; }
 
-/*# sourceMappingURL=defaults.css.map */
+/*# sourceMappingURL=home.css.map */

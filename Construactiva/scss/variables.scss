@@ -1,0 +1,25 @@
+/* GENERALS */
+$desk-width: 1000px;
+
+/* FONTS */
+$font: 'Hind', sans-serif;
+$icons: 'construactiva';
+
+/* COLORS */
+$purple: #413062;
+$cian: #00a8d8;
+$cian2: #0099c5;
+$gray: #8e8e8e;
+$gray2: #737373;
+$gray3: #444444;
+$white: #fff;
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.circle { @include border-radius(50%); }
