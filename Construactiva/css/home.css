@@ -21,159 +21,156 @@
     .slider-holder .slider img {
       vertical-align: top; }
 
-/* line 22, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-.mainHolder {
-  /*overflow: hidden;*/ }
-  /* line 25, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-  .mainHolder .contentHolder {
-    box-shadow: 0 0 10px #000;
-    width: 1000px;
-    margin: 0 auto;
-    min-height: 800px; }
-    /* line 31, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections {
+/* line 24, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+.mainHolder .contentHolder {
+  box-shadow: 0 0 10px #000;
+  width: 1000px;
+  margin: 0 auto;
+  min-height: 800px; }
+  /* line 30, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+  .mainHolder .contentHolder .sections {
+    height: 300px;
+    position: relative; }
+    /* line 34, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li {
+      float: left;
+      width: 33.33%;
+      position: absolute;
       height: 300px;
-      position: relative; }
-      /* line 35, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li {
-        float: left;
-        width: 33.33%;
-        position: absolute;
-        height: 300px;
-        transition: all 0.5s;
-        cursor: pointer; }
-      /* line 44, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(1) {
-        top: 0;
-        left: 0%; }
-      /* line 49, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(2) {
-        top: 0;
-        left: 33.33%; }
-      /* line 54, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(3) {
-        top: 0;
-        left: 66.66%; }
-      /* line 60, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections li h2 {
-        position: relative;
-        z-index: 4;
+      transition: all 0.5s;
+      cursor: pointer; }
+    /* line 43, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(1) {
+      top: 0;
+      left: 0%; }
+    /* line 48, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(2) {
+      top: 0;
+      left: 33.33%; }
+    /* line 53, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(3) {
+      top: 0;
+      left: 66.66%; }
+    /* line 59, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections li h2 {
+      position: relative;
+      z-index: 4;
+      text-align: center;
+      text-transform: uppercase;
+      color: #413062;
+      font-weight: 700;
+      font-size: 20px;
+      padding: 70px 0 20px 0; }
+    /* line 70, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections li ul {
+      position: relative;
+      z-index: 4; }
+      /* line 74, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections li ul li {
         text-align: center;
-        text-transform: uppercase;
-        color: #413062;
-        font-weight: 700;
-        font-size: 20px;
-        padding: 70px 0 20px 0; }
-      /* line 71, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections li ul {
-        position: relative;
-        z-index: 4; }
-        /* line 75, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-        .mainHolder .contentHolder .sections li ul li {
-          text-align: center;
-          color: #8e8e8e; }
-      /* line 82, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover {
-        background: #00a8d8;
-        height: 380px;
-        top: -50px; }
-        /* line 88, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-        .mainHolder .contentHolder .sections > li:hover h2, .mainHolder .contentHolder .sections > li:hover li {
-          color: #fff; }
-        /* line 91, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-        .mainHolder .contentHolder .sections > li:hover a {
-          background: #413062; }
-        /* line 95, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-        .mainHolder .contentHolder .sections > li:hover h2 {
-          padding-top: 30px; }
-      /* line 100, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:before {
-        display: block;
-        width: 150px;
-        height: 150px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        content: "";
-        background: #fff;
-        position: absolute;
-        top: -75px;
-        left: -75px;
-        margin: 0 50%;
-        transition: all 0.5s; }
-      /* line 114, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover:before {
-        background: #00a8d8;
-        top: 10px; }
-      /* line 119, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:after {
-        display: block;
-        width: 150px;
-        height: 150px;
-        font-family: 'construactiva';
-        color: #00a8d8;
-        position: absolute;
-        top: -75px;
-        left: -75px;
-        margin: 0 50%;
-        line-height: 150px;
-        text-align: center;
-        font-size: 90px;
-        transition: all 0.5s; }
-      /* line 135, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover:after {
-        color: #0099c5;
-        top: 215px;
-        font-size: 150px; }
-      /* line 141, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(1):after {
-        content: "\e601"; }
-      /* line 145, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(2):after {
-        content: "\e602"; }
-      /* line 149, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:nth-child(3):after {
-        content: "\e61f"; }
-      /* line 153, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections a {
-        display: block;
-        position: absolute;
-        left: 50%;
-        bottom: -25px;
-        margin: 0 -25px;
-        overflow: hidden;
-        width: 50px;
-        height: 50px;
-        text-indent: -9999px;
-        background: #00a8d8;
-        color: #fff;
-        z-index: 5;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%; }
-      /* line 169, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections a:before {
-        font-family: 'Hind', sans-serif;
-        font-weight: 700;
-        text-align: center;
-        line-height: 55px;
-        content: "+";
-        text-indent: 0;
-        font-size: 20px;
-        display: block;
-        text-align: center; }
-      /* line 181, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections a:hover {
+        color: #8e8e8e; }
+    /* line 81, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:hover {
+      background: #00a8d8;
+      height: 380px;
+      top: -50px; }
+      /* line 87, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li:hover h2, .mainHolder .contentHolder .sections > li:hover li {
+        color: #fff; }
+      /* line 90, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li:hover a {
         background: #413062; }
-      /* line 185, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections a:hover:berore {
-        content: "-"; }
-    /* line 190, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sectionsInfo {
-      clear: both;
-      background: #737373;
-      padding: 18px 0; }
+      /* line 94, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li:hover h2 {
+        padding-top: 30px; }
+    /* line 99, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:before {
+      display: block;
+      width: 150px;
+      height: 150px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+      content: "";
+      background: #fff;
+      position: absolute;
+      top: -75px;
+      left: -75px;
+      margin: 0 50%;
+      transition: all 0.5s; }
+    /* line 113, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:hover:before {
+      background: #00a8d8;
+      top: 10px; }
+    /* line 118, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:after {
+      display: block;
+      width: 150px;
+      height: 150px;
+      font-family: 'construactiva';
+      color: #00a8d8;
+      position: absolute;
+      top: -75px;
+      left: -75px;
+      margin: 0 50%;
+      line-height: 150px;
+      text-align: center;
+      font-size: 90px;
+      transition: all 0.5s; }
+    /* line 134, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:hover:after {
+      color: #0099c5;
+      top: 215px;
+      font-size: 150px; }
+    /* line 140, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(1):after {
+      content: "\e601"; }
+    /* line 144, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(2):after {
+      content: "\e602"; }
+    /* line 148, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:nth-child(3):after {
+      content: "\e61f"; }
+    /* line 152, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections a {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: -25px;
+      margin: 0 -25px;
+      overflow: hidden;
+      width: 50px;
+      height: 50px;
+      text-indent: -9999px;
+      background: #00a8d8;
+      color: #fff;
+      z-index: 5;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%; }
+    /* line 168, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections a:before {
+      font-family: 'Hind', sans-serif;
+      font-weight: 700;
+      text-align: center;
+      line-height: 55px;
+      content: "+";
+      text-indent: 0;
+      font-size: 20px;
+      display: block;
+      text-align: center; }
+    /* line 180, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections a:hover {
+      background: #413062; }
+    /* line 184, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections a:hover:berore {
+      content: "-"; }
+  /* line 189, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+  .mainHolder .contentHolder .sectionsInfo {
+    clear: both;
+    background: #737373;
+    padding: 18px 0; }
 
 /*# sourceMappingURL=home.css.map */
