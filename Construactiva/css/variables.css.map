@@ -5,6 +5,6 @@
     "variables.scss"
   ],
   "names": [],
-  "mappings": ";;;;AAwBA;EANE,uBAM+B;EAL5B,oBAK4B;EAJ3B,mBAI2B;EAHvB,eAGuB",
+  "mappings": ";;;;;AAwBA;EANE,uBAM+B;EAL5B,oBAK4B;EAJ3B,mBAI2B;EAHvB,eAGuB",
   "sourceRoot": "../scss/"
 }
