@@ -67,70 +67,6 @@
                         <a href="#" class="cta rsABlock" data-fade-effect="true" data-delay="2000" data-speed="1000" data-easing="easeOutBack" data-move-effect="none">More Info</a>
                     </div>
                 </div>
-
-                <div class="rsContent slide2">
-                    <div class="bContainer">
-                        <img class="rsABlock piece1" data-fade-effect="true" data-move-effect="bottom" data-delay="1000" data-move-offset="45" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide2/pieces.png" alt="Piece" />
-
-                        <img class="rsABlock bg1" data-fade-effect="true" data-move-effect="left" data-delay="0" data-move-offset="300" data-easing="easeOutBack" data-speed="1000" src="images/slider/slide2/bg1.png" alt="Piece" />
-
-                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="right" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">Desktop Power <span class="block">Supplies</span></h2>
-
-                        <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="right" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">
-                            <li>Power ratings from 1W to 280W</li>
-                            <li>Selection of output voltages from 5vdc to 48vdc</li>
-                            <li>Full international safety approvals</li>
-                            <li>All units meet latest energy efficiency standards</li>
-                        </ul>
-                        <a href="#" class="cta rsABlock" data-fade-effect="true" data-delay="2000" data-speed="1000" data-easing="easeOutBack" data-move-effect="none">More Info</a>
-                    </div>
-                </div>
-
-                <div class="rsContent slide3">
-                    <div class="bContainer">
-                        <img class="rsABlock piece1" data-fade-effect="true" data-move-effect="bottom" data-delay="1000" data-move-offset="45" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide3/piece1.png" alt="Piece" />
-
-                        <img class="rsABlock piece2" data-fade-effect="true" data-move-effect="top" data-delay="1000" data-move-offset="45" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide3/piece2.png" alt="Piece" />
-
-                        <img class="rsABlock bg1" data-fade-effect="true" data-move-effect="top" data-delay="0" data-move-offset="400" data-easing="easeOutBack" data-speed="1000" src="images/slider/slide3/bg1.png" alt="Piece" />
-
-                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="50" data-easing="easeOutBack" data-speed="1000">DC-DC
-                        <span class="block">Converters</span></h2>
-
-                        <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="50" data-easing="easeOutBack" data-speed="1000">
-                            <li>Available from 0.25W to 40W</li>
-                            <li>Industry Standard Footprints</li>
-                            <li>Ultra-Fast Lead Time</li>
-                            <li>Safety Approved</li>
-                            <li>Aggressively priced
-
-                            <span class="block extraText">High power enclosed series 
-                            <span class="block">also available at up to 1000W</span></span></li>
-                        </ul>
-                        <a href="#" class="cta rsABlock" data-fade-effect="true" data-delay="2000" data-speed="1000" data-easing="easeOutBack" data-move-effect="none">More Info</a>
-                    </div>
-                </div>
-
-                <div class="rsContent slide4">
-                    <div class="bContainer">
-                        <img class="rsABlock piece1" data-fade-effect="true" data-move-effect="bottom" data-delay="1000" data-move-offset="100" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide4/piece1.png" alt="Piece" />
-
-                        <img class="rsABlock piece2" data-fade-effect="true" data-move-effect="top" data-delay="1000" data-move-offset="100" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide4/piece2.png" alt="Piece" />
-
-                        <img class="rsABlock bg1" data-fade-effect="true" data-move-effect="left" data-delay="0" data-move-offset="500" data-easing="easeOutBack" data-speed="1000" src="images/slider/slide4/bg1.png" alt="Piece" />
-
-                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="80" data-easing="easeOutBack" data-speed="1000">LED Drivers</h2>
-
-                        <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="80" data-easing="easeOutBack" data-speed="1000">
-                            <li>For indoor or outdoor use</li>
-                            <li>Standard or Dimmable</li>
-                            <li>Wide range from 1W to 300W</li>
-                            <li>Constant Current or Constant Voltage outputs</li>
-                            <li>Up to 5 years warranty</li>
-                        </ul>
-                        <a href="#" class="cta rsABlock" data-fade-effect="true" data-delay="2000" data-speed="1000" data-easing="easeOutBack" data-move-effect="none">More Info</a>
-                    </div>
-                </div>
             </div>
         </article>
     </div>
@@ -138,7 +74,7 @@
     <section class="mainHolder">
         <article class="contentHolder">
             <ul class="sections">
-                <li>
+                <li accesskey="Vivienda">
                     <h2>Vivienda a la medida</h2>
                     <ul>
                         <li>Nos ajustamos a su presupuesto</li>
@@ -147,10 +83,10 @@
                         <li>Sistema llave en mano</li>
                         <li>Remodelaciones</li>
                     </ul>
-                    <a href="#">ver más sobre Vivienda a la medida</a>
+                    <span>+</span>
                 </li>
                 
-                <li>
+                <li accesskey="Desarrollo">
                     <h2>Desarrollo Urbano</h2>
                     <ul>
                         <li>Nos ajustamos a su presupuesto</li>
@@ -159,10 +95,10 @@
                         <li>Sistema llave en mano</li>
                         <li>Remodelaciones</li>
                     </ul>
-                    <a href="#">ver más sobre Desarrollo Urbano</a>
+                    <span>+</span>
                 </li>
                 
-                <li>
+                <li accesskey="Tramites">
                     <h2>Tramites &amp; Consultoria</h2>
                     <ul>
                         <li>Nos ajustamos a su presupuesto</li>
@@ -171,12 +107,39 @@
                         <li>Sistema llave en mano</li>
                         <li>Remodelaciones</li>
                     </ul>
-                    <a href="#">ver más sobre Trámites y Consultoría</a>
+                    <span>+</span>
                 </li>
             </ul>
             
-            <div class="sectionsInfo">
-            </div>
+            <ul class="sectionsInfo">
+                <li id="Vivienda">
+                   <h2>Vivienda a la medida</h2>
+                    <span>
+                        <p>Nuestros sistemas de vivienda a la medida son una excelente oportunidad para aquellas personas que desean una vivienda propia y tienen un limite de crédito o cuentan con un presupuesto ajustado.</p>
+                        <p>Desarrollamos el proyecto en etapas que le ayudarán a ajustar su bolsillo y hacer realidad poco a poco su sueño de casa propia; nos ajustamos totalmente a su presupuesto y le ofreceremos soluciones variadas a cualquier especificación y sistema constructivo que elija.</p>
+                        <p>Trabajamos con cualquier material y sistema constructivo que elija, desde laminas prefabricadas, block de concreto o nuevos sistemas no convencionales, consúltenos y de el primer paso para cumplir esta gran meta.</p>
+                    </span>
+                    <img src="images/sections/vivienda_medida.jpg" alt="Vivienda a la medida" />
+                </li>
+                <li id="Desarrollo">
+                    <h2>Desarrollo Urbano</h2>
+                    <span>
+                        <p>Nuestros sistemas de vivienda a la medida son una excelente oportunidad para aquellas personas que desean una vivienda propia y tienen un limite de crédito o cuentan con un presupuesto ajustado.</p>
+                        <p>Desarrollamos el proyecto en etapas que le ayudarán a ajustar su bolsillo y hacer realidad poco a poco su sueño de casa propia; nos ajustamos totalmente a su presupuesto y le ofreceremos soluciones variadas a cualquier especificación y sistema constructivo que elija.</p>
+                        <p>Trabajamos con cualquier material y sistema constructivo que elija, desde laminas prefabricadas, block de concreto o nuevos sistemas no convencionales, consúltenos y de el primer paso para cumplir esta gran meta.</p>
+                    </span>
+                    <img src="images/sections/desarrollo_urbano.jpg" alt="Desarrollo Urbano" />
+                </li>
+                <li id="Tramites">
+                    <h2>Tramites &amp; Consultoria</h2>
+                    <span>
+                        <p>Nuestros sistemas de vivienda a la medida son una excelente oportunidad para aquellas personas que desean una vivienda propia y tienen un limite de crédito o cuentan con un presupuesto ajustado.</p>
+                        <p>Desarrollamos el proyecto en etapas que le ayudarán a ajustar su bolsillo y hacer realidad poco a poco su sueño de casa propia; nos ajustamos totalmente a su presupuesto y le ofreceremos soluciones variadas a cualquier especificación y sistema constructivo que elija.</p>
+                        <p>Trabajamos con cualquier material y sistema constructivo que elija, desde laminas prefabricadas, block de concreto o nuevos sistemas no convencionales, consúltenos y de el primer paso para cumplir esta gran meta.</p>
+                    </span>
+                    <img src="images/sections/tramites_consultoria.jpg" alt="Tramites y Consultoría" />
+                </li>
+            </ul>
         </article>
     </section>
     
@@ -186,6 +149,8 @@
     <script class="rs-file" src="api/royalslider/jquery-1.8.3.min.js"></script>
     <script class="rs-file" src="api/royalslider/jquery.royalslider.min.js"></script>
     <script class="rs-file" src="api/royalslider/jquery.easing-1.3.js"></script>
+    
+    <script src="js/construactiva.min.js"></script>
     
 <script id="addJS">jQuery(document).ready(function($) {
 	jQuery.rsCSS3Easing.easeOutBack = 'cubic-bezier(0.175, 0.885, 0.320, 1.275)';
@@ -205,8 +170,7 @@
 			keyboardNavEnabled: true
 		});
 	});
-</script>
-    
+</script>    
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 /* FONTS */
 /* COLORS */
 /* OTHERS */
-/* line 25, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/variables.scss */
+/* line 25, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/variables.scss */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -10,25 +10,25 @@
   border-radius: 50%; }
 
 /* DEFALULTS */
-/* line 5, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+/* line 5, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
 body {
   margin: 0;
   padding: 0;
   font-family: 'Hind', sans-serif; }
 
 /* MEAN CLASSES */
-/* line 12, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+/* line 12, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
 .block {
   display: block; }
 
-/* line 16, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+/* line 16, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
 header {
   width: 1000px;
   margin: 0 auto;
   padding-top: 10px;
   overflow: hidden;
   background: #fff; }
-  /* line 23, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+  /* line 23, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
   header h1 {
     margin: 0;
     padding: 27px 0 30px 85px;
@@ -40,17 +40,17 @@ header {
     position: relative;
     color: #413062;
     float: left; }
-    /* line 35, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+    /* line 35, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
     header h1 span {
       color: #00a8d8; }
-    /* line 39, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+    /* line 39, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
     header h1 span.block {
       padding-left: 2px;
       font-size: 12px;
       line-height: 16px;
       font-weight: 300 !important;
       color: #8e8e8e; }
-    /* line 47, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+    /* line 47, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
     header h1 .icon-construactiva {
       position: absolute;
       top: 0;
@@ -58,19 +58,19 @@ header {
       font-size: 85px;
       float: left;
       color: #413062; }
-  /* line 57, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+  /* line 57, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
   header .mainNav {
     float: right;
     padding-top: 34px; }
-    /* line 61, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+    /* line 61, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
     header .mainNav ul {
       overflow: hidden; }
-      /* line 64, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+      /* line 64, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
       header .mainNav ul li {
         float: left;
         font-family: 'Hind', sans-serif;
         padding: 0 10px; }
-        /* line 69, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+        /* line 69, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
         header .mainNav ul li a {
           display: block;
           text-transform: uppercase;
@@ -78,7 +78,7 @@ header {
           padding: 0 10px;
           color: #413062;
           line-height: 20px; }
-        /* line 79, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/defaults.scss */
+        /* line 79, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/defaults.scss */
         header .mainNav ul li a:hover, header .mainNav ul li a.selected {
           color: #00a8d8; }
 
@@ -86,57 +86,58 @@ header {
 /* FONTS */
 /* COLORS */
 /* OTHERS */
-/* line 25, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/variables.scss */
+/* line 25, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/variables.scss */
 .circle {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%; }
 
-/* line 7, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+/* line 7, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
 .slider-holder {
   background: #413062;
   overflow: hidden; }
-  /* line 11, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+  /* line 11, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
   .slider-holder .slider {
     box-shadow: 0 0 10px #000;
     width: 1000px;
     margin: 0 auto; }
-    /* line 16, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 16, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .slider-holder .slider img {
       vertical-align: top; }
 
-/* line 24, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+/* line 24, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
 .mainHolder .contentHolder {
   box-shadow: 0 0 10px #000;
   width: 1000px;
   margin: 0 auto;
   min-height: 800px; }
-  /* line 30, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+  /* line 30, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
   .mainHolder .contentHolder .sections {
     height: 300px;
     position: relative; }
-    /* line 34, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 34, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li {
       float: left;
       width: 33.33%;
       position: absolute;
       height: 300px;
       transition: all 0.5s;
-      cursor: pointer; }
-    /* line 43, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      cursor: pointer;
+      z-index: 3; }
+    /* line 44, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(1) {
       top: 0;
       left: 0%; }
-    /* line 48, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 49, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(2) {
       top: 0;
       left: 33.33%; }
-    /* line 53, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 54, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(3) {
       top: 0;
       left: 66.66%; }
-    /* line 59, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 60, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections li h2 {
       position: relative;
       z-index: 4;
@@ -146,29 +147,29 @@ header {
       font-weight: 700;
       font-size: 20px;
       padding: 70px 0 20px 0; }
-    /* line 70, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 71, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections li ul {
       position: relative;
       z-index: 4; }
-      /* line 74, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+      /* line 75, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
       .mainHolder .contentHolder .sections li ul li {
         text-align: center;
         color: #8e8e8e; }
-    /* line 81, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections > li:hover {
+    /* line 83, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li.selected {
       background: #00a8d8;
       height: 380px;
       top: -50px; }
-      /* line 87, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover h2, .mainHolder .contentHolder .sections > li:hover li {
+      /* line 89, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li.selected h2, .mainHolder .contentHolder .sections > li.selected li {
         color: #fff; }
-      /* line 90, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover a {
+      /* line 92, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li.selected span {
         background: #413062; }
-      /* line 94, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-      .mainHolder .contentHolder .sections > li:hover h2 {
+      /* line 96, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sections > li.selected h2 {
         padding-top: 30px; }
-    /* line 99, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 101, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:before {
       display: block;
       width: 150px;
@@ -184,11 +185,11 @@ header {
       left: -75px;
       margin: 0 50%;
       transition: all 0.5s; }
-    /* line 113, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections > li:hover:before {
+    /* line 116, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li.selected:before {
       background: #00a8d8;
       top: 10px; }
-    /* line 118, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 121, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:after {
       display: block;
       width: 150px;
@@ -203,59 +204,79 @@ header {
       text-align: center;
       font-size: 90px;
       transition: all 0.5s; }
-    /* line 134, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections > li:hover:after {
+    /* line 138, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li.selected:after {
       color: #0099c5;
       top: 215px;
       font-size: 150px; }
-    /* line 140, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 144, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(1):after {
       content: "\e601"; }
-    /* line 144, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 148, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(2):after {
       content: "\e602"; }
-    /* line 148, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+    /* line 152, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
     .mainHolder .contentHolder .sections > li:nth-child(3):after {
       content: "\e61f"; }
-    /* line 152, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections a {
+    /* line 156, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections span {
       display: block;
       position: absolute;
-      left: 50%;
+      left: 50.1%;
       bottom: -25px;
       margin: 0 -25px;
       overflow: hidden;
       width: 50px;
       height: 50px;
-      text-indent: -9999px;
       background: #00a8d8;
       color: #fff;
       z-index: 5;
+      font-family: 'Hind', sans-serif;
+      font-weight: 700;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
-      border-radius: 50%; }
-    /* line 168, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections a:before {
-      font-family: 'Hind', sans-serif;
-      font-weight: 700;
+      border-radius: 50%;
       text-align: center;
       line-height: 55px;
-      content: "+";
-      text-indent: 0;
       font-size: 20px;
       display: block;
       text-align: center; }
-    /* line 180, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections a:hover {
+    /* line 178, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sections > li:hover span, .mainHolder .contentHolder .sections span:hover {
       background: #413062; }
-    /* line 184, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
-    .mainHolder .contentHolder .sections a:hover:berore {
-      content: "-"; }
-  /* line 189, /Users/caleb.briancesco/Sites/caleb/Construactiva/scss/home.scss */
+  /* line 183, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
   .mainHolder .contentHolder .sectionsInfo {
     clear: both;
     background: #737373;
-    padding: 18px 0; }
+    padding: 18px 0;
+    overflow: hidden; }
+    /* line 189, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+    .mainHolder .contentHolder .sectionsInfo li {
+      overflow: hidden;
+      display: none;
+      padding-top: 20px;
+      color: #fff;
+      position: relative; }
+      /* line 196, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sectionsInfo li h2 {
+        background: #444444;
+        text-transform: uppercase;
+        line-height: 40px;
+        padding-left: 40px;
+        margin-top: 20px; }
+      /* line 204, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sectionsInfo li span {
+        display: block;
+        width: 50%;
+        padding: 0 0 0 20px; }
+      /* line 210, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sectionsInfo li p {
+        padding-top: 20px; }
+      /* line 214, /Users/caleb.briancesco/Sites/Caleb/Construactiva/scss/home.scss */
+      .mainHolder .contentHolder .sectionsInfo li img {
+        position: absolute;
+        top: 0;
+        right: 0; }
 
 /*# sourceMappingURL=defaults.css.map */

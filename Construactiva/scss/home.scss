@@ -38,6 +38,7 @@ $icon-size: 150px;
                 height: $sections-size;
                 transition: all 0.5s;
                 cursor: pointer;
+                z-index: 3;
             }
             
             >li:nth-child(1){
@@ -78,7 +79,8 @@ $icon-size: 150px;
                 }
             }
             
-            >li:hover{
+            //>li:hover,
+            >li.selected{
                 background: $cian;
                 height: 380px;
                 top: -50px;
@@ -87,7 +89,7 @@ $icon-size: 150px;
                 li{
                     color:$white;
                 }
-                a{
+                span{
                     background: $purple;
                 }
                 
@@ -110,7 +112,8 @@ $icon-size: 150px;
                 transition: all 0.5s;
             }
             
-            > li:hover:before{
+            //> li:hover:before,
+            > li.selected:before{
                 background: $cian;
                 top: 10px;
             }
@@ -131,7 +134,8 @@ $icon-size: 150px;
                 transition: all 0.5s;
             }
             
-            > li:hover:after{
+            //> li:hover:after,
+            > li.selected:after{
                 color: $cian2;
                 top: 215px;
                 font-size: 150px;
@@ -149,40 +153,30 @@ $icon-size: 150px;
                 content:"\e61f";
             }
             
-            a{
+            span{
                 display: block;
                 position: absolute;
-                left: 50%;
+                left: 50.1%;
                 bottom: -25px;
                 margin: 0 -25px;
                 overflow: hidden;
                 width: 50px;
                 height: 50px;
-                text-indent: -9999px;
                 background: $cian;
                 color: $white;
                 z-index: 5;
-                @include border-radius(50%);
-            }
-            
-            a:before{
                 font-family: $font;
                 font-weight: 700;
+                @include border-radius(50%);
                 text-align: center;
                 line-height: 55px;
-                content: "+";
-                text-indent: 0;
                 font-size: 20px;
                 display: block;
                 text-align: center;
             }
-            
-            a:hover{
+            >li:hover span,
+            span:hover{
                 background: $purple;
-            }
-            
-            a:hover:berore{
-                content:"-";
             }
         }
         
@@ -190,6 +184,42 @@ $icon-size: 150px;
             clear: both;
             background: $gray2;
             padding: 18px 0;
+            overflow: hidden;
+        
+            li{
+                overflow: hidden;
+                display: none;
+                padding-top: 20px;
+                color: $white;
+                position: relative;
+                
+                h2{
+                    background: $gray3;
+                    text-transform: uppercase;
+                    line-height: 40px;
+                    padding-left: 40px;
+                    margin-top: 20px;
+                }
+                
+                span{
+                    display: block;
+                    width: 50%;
+                    padding: 0 0 0 20px;
+                }
+                
+                p{
+                    padding-top: 20px;
+                }
+                
+                img{
+                    position: absolute;
+                    top:0;
+                    right: 0;
+                }
+            }
+            
+            li.selected{
+            }
         }
     }
 }
