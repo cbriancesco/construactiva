@@ -44,27 +44,38 @@
             <div id="construactivaSlide" class="royalSlider rsMinW">
                 <div class="rsContent slide1">
                     <div class="bContainer">
-                        <img class="rsABlock piece1" data-fade-effect="true" data-move-effect="bottom" data-delay="1300" data-move-offset="100" data-easing="easeOutBack" data-speed="700" src="images/slider/slide1/piece1.png" alt="Piece" />
-
-                        <img class="rsABlock piece2" data-fade-effect="true" data-move-effect="bottom" data-delay="1000" data-move-offset="100" data-easing="easeOutBack" data-speed="1000"  src="images/slider/slide1/piece2.png" alt="Piece" />
-
-                        <img class="rsABlock piece3" data-fade-effect="true" data-move-effect="top" data-delay="1200" data-move-offset="100" data-easing="easeOutBack" data-speed="800" src="images/slider/slide1/piece3.png" alt="Piece" />
-
-                        <img class="rsABlock piece4" data-fade-effect="true" data-move-effect="top" data-delay="1000" data-move-offset="100" data-easing="easeOutBack" data-speed="1000" src="images/slider/slide1/piece4.png" alt="Piece" />
-
-                        <img class="rsABlock piece5" data-fade-effect="true" data-move-effect="top" data-delay="1100" data-move-offset="100" data-easing="easeOutBack" data-speed="900" src="images/slider/slide1/piece5.png" alt="Piece" />
-
-                        <img class="rsABlock bg1" data-fade-effect="true" data-move-effect="right" data-delay="0" data-move-offset="400" data-easing="easeOutBack" data-speed="1500" src="images/slider/slide1/bg1.png" alt="Piece" />
-
-                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">Power Supplies for World Use</h2>
+                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="right" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">Vivienda a la medida</h2>
 
                         <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">
-                            <li>Comprehensive range of International power supplies</li>
-                            <li>Safety approved for global markets</li>
-                            <li>From stock or made to order</li>
+                            <li>La mejor opción para por fin lograr ese sueño</li>
+                            <li>Consultenos sin ningún compromiso</li>
+                            <li>Nos ajustamos a su presupuesto</li>
+                            <li>Proyectos en todo el país</li>
                         </ul>
+                    </div>
+                </div>
+                <div class="rsContent slide2">
+                    <div class="bContainer">
+                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="right" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">Desarrollo Urbano</h2>
 
-                        <a href="#" class="cta rsABlock" data-fade-effect="true" data-delay="2000" data-speed="1000" data-easing="easeOutBack" data-move-effect="none">More Info</a>
+                        <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">
+                            <li>Administración de proyectos</li>
+                            <li>Diseño de planos constructivos</li>
+                            <li>Los mejores profesionales a cargo</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rsContent slide3">
+                    <div class="bContainer">
+                        <h2 class="title1 rsABlock" data-fade-effect="true" data-move-effect="right" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">Tramites &amp; Consultoría</h2>
+
+                        <ul class="copy rsABlock list" data-fade-effect="true" data-move-effect="left" data-delay="500" data-move-offset="100" data-easing="easeOutBack" data-speed="1000">
+                            <li>Diseño de planos constructivos</li>
+                            <li>Obtención de permisos municipales</li>
+                            <li>Asesoría personalizada</li>
+                            <li>Diseños originales a la medida</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -101,11 +112,10 @@
                 <li accesskey="Tramites">
                     <h2>Tramites &amp; Consultoria</h2>
                     <ul>
-                        <li>Nos ajustamos a su presupuesto</li>
-                        <li>Alcance en todo el país</li>
-                        <li>Atención personalizada</li>
-                        <li>Sistema llave en mano</li>
-                        <li>Remodelaciones</li>
+                        <li>Diseño de planos constructivos</li>
+                        <li>Obtención de permisos municipales</li>
+                        <li>Asesoría personalizada</li>
+                        <li>Diseños originales a la medida</li>
                     </ul>
                     <span>+</span>
                 </li>
@@ -162,7 +172,7 @@
                 enabled: true,
                 pauseOnHover: true,
                 stopAtAction: false,
-                delay: 5000
+                delay: 7000
             },
 			loop: true,
 			numImagesToPreload: 4,
